@@ -1,0 +1,18 @@
+$img: 100%;
+$a: none;
+$colo-a: #d34229;
+
+
+a {
+    text-decoration: $a;
+    color: $colo-a;
+}
+
+.tit-recomm-txt-emph {
+    color: $colo-a;
+}
+
+.intem-img {
+    width: $img;
+    height: $img;
+}

@@ -8,14 +8,28 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 </head>
 
 <body>
     <div class="container-fluid">
+        <section class="search">
+            <div class="search-main">
+                <form class="search-bar" action="tim-kiem" id="search-form" name="search-form" method="get"
+                    onsubmit="return false" role="search">
+                    <input type="text" name="keywords" value="" id="keywords" placeholder="Nhập từ khóa cần tìm kiếm"
+                        class="form-control">
+                    <button class="search-btn">
+                        TÌM
+                    </button>
+                </form>
+            </div>
+
+        </section>
         <section id="section-container" class="cont-top">
             <div class="row main-slide-home-page">
-                <div class="col-8 intem-slide">
+                <div class="col-md-8 intem-slide">
                     <div class="tit-recomm">
                         <h2>
                             <strong class="tit-recomm-txt">
@@ -27,27 +41,96 @@
                         </h2>
                     </div>
                     <div class="row">
-                        <div class="col-5 intem-slide-img">
-                            <a href="">
-                                <img class="intem-img"
-                                    src="./public/img/hinh-anh-van-phong-cong-ty-casanova-mccann-2.png" alt="">
-                            </a>
-                        </div>
-                        <div class="col-5 name-spotlight">
-                            <h3 class="title-spotlight">
-                                <a href="">Tên Công IT</a>
-                            </h3>
-                            <div class="spotilght-txt">
-                                <p>Seal Commerce is a Global Product Company that helps people sell better...</p>
-                                <div class="spotilght-txt-DC">
-                                    <p class="loca-spotlight">Hà Nội</p>
+                        <div class="col-md-10 intem-main">
+                            <div class="intem-main-child">
+                                <div class="row">
+                                    <div class="col-md-5 intem-slide-img">
+                                        <a href="">
+                                            <img class="intem-img"
+                                                src="./public/img/hinh-anh-van-phong-cong-ty-casanova-mccann-2.png"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-7 name-spotlight">
+                                        <h3 class="title-spotlight">
+                                            <a href="">Tên Công IT</a>
+                                        </h3>
+                                        <div class="spotilght-txt">
+                                            <p class="loca-spotlight">Seal Commerce is a Global Product Company that
+                                                helps people sell
+                                                better...
+                                            </p>
+                                            <div class="spotilght-txt-DC">
+                                                <p class="loca-spotlight">Hà Nội</p>
+                                            </div>
+                                        </div>
+                                        <div class="spotlight-btn">
+                                            <a href="">Xem Thêm &raquo;</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="spotlight-btn">
-                                <a href="">Xem Thêm &raquo;</a>
+                            <div class="intem-main-child">
+                                <div class="row">
+                                    <div class="col-md-5 intem-slide-img">
+                                        <a href="">
+                                            <img class="intem-img"
+                                                src="./public/img/hinh-anh-van-phong-cong-ty-casanova-mccann-2.png"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-7 name-spotlight">
+                                        <h3 class="title-spotlight">
+                                            <a href="">Tên Công IT</a>
+                                        </h3>
+                                        <div class="spotilght-txt">
+                                            <p class="loca-spotlight">Seal Commerce is a Global Product Company that
+                                                helps people sell
+                                                better...
+                                            </p>
+                                            <div class="spotilght-txt-DC">
+                                                <p class="loca-spotlight">Hà Nội</p>
+                                            </div>
+                                        </div>
+                                        <div class="spotlight-btn">
+                                            <a href="">Xem Thêm &raquo;</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="intem-main-child">
+                                <div class="row">
+                                    <div class="col-md-5 intem-slide-img">
+                                        <a href="">
+                                            <img class="intem-img"
+                                                src="./public/img/hinh-anh-van-phong-cong-ty-casanova-mccann-2.png"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-7 name-spotlight">
+                                        <h3 class="title-spotlight">
+                                            <a href="">Tên Công IT</a>
+                                        </h3>
+                                        <div class="spotilght-txt">
+                                            <p class="loca-spotlight">Seal Commerce is a Global Product Company that
+                                                helps people sell
+                                                better...
+                                            </p>
+                                            <div class="spotilght-txt-DC">
+                                                <p class="loca-spotlight">Hà Nội</p>
+                                            </div>
+                                        </div>
+                                        <div class="spotlight-btn">
+                                            <a href="">Xem Thêm &raquo;</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-2 intem-thume">
+                        <div class="col-md-2 intem-thume">
+                            <a class="intem-thume-img" href="">
+                                <img src="./public/img/240656610_1057724158393576_5957262079858008168_n.jpg" alt="">
+                            </a>
                             <a class="intem-thume-img" href="">
                                 <img src="./public/img/240656610_1057724158393576_5957262079858008168_n.jpg" alt="">
                             </a>
@@ -58,10 +141,12 @@
                                 <img src="./public/img/240656610_1057724158393576_5957262079858008168_n.jpg" alt="">
                             </a>
                         </div>
+
                     </div>
+
                 </div>
 
-                <div class="col-4">
+                <div class="col-md-4 hot-work">
                     <div class="tit-recomm">
                         <h2>
                             <strong class="tit-recomm-txt">
@@ -72,24 +157,165 @@
                             </strong>
                         </h2>
                     </div>
-                    <ul class="custom_supper_hot_job">
-                        <li>
-                            <span class="tags"><strong class="txt_tags">VietCredit</strong></span>
-                            <p class="txt_thema"><a> Senior .NET Engineer - 1-month joining bonus </a></p>
-                            <p class="job-salary-view"> Thương lượng </p>
-                        </li>
-                        <li>
-                            <span class="tags"><strong class="txt_tags">VietCredit</strong></span>
-                            <p class="txt_thema"><a> Senior .NET Engineer - 1-month joining bonus </a></p>
-                            <p class="job-salary-view"> Thương lượng </p>
-                        </li>
-                        <li>
-                            <span class="tags"><strong class="txt_tags">VietCredit</strong></span>
-                            <p class="txt_thema"><a> Senior .NET Engineer - 1-month joining bonus </a></p>
-                            <p class="job-salary-view"> Thương lượng </p>
-                        </li>
-                    </ul>
-
+                    <div id="hotid" class="hot-wotk-intem">
+                        <ul id="customid" class="supper-hot-job">
+                            <li>
+                                <span class="tags"><strong class="tags-txt">VietCredit</strong></span>
+                                <br><a href=""> Senior .NET Engineer - 1-month joining bonus </a>
+                                <p class="job-salary-view"> Thương lượng </p>
+                            </li>
+                            <li>
+                                <span class="tags"><strong class="tags-txt">VietCredit</strong></span>
+                                <br><a href=""> Senior .NET Engineer - 1-month joining bonus </a>
+                                <p class="job-salary-view"> Thương lượng </p>
+                            </li>
+                            <li>
+                                <span class="tags"><strong class="tags-txt">VietCredit</strong></span>
+                                <br><a href=""> Senior .NET Engineer - 1-month joining bonus </a>
+                                <p class="job-salary-view"> Thương lượng </p>
+                            </li>
+                            <li>
+                                <span class="tags"><strong class="tags-txt">VietCredit</strong></span>
+                                <br><a href=""> Senior .NET Engineer - 1-month joining bonus </a>
+                                <p class="job-salary-view"> Thương lượng </p>
+                            </li>
+                        </ul>
+                        <ul id="customid" class="supper-hot-job">
+                            <li>
+                                <span class="tags"><strong class="tags-txt">VietCredit</strong></span>
+                                <br><a href=""> Senior .NET Engineer - 1-month joining bonus </a>
+                                <p class="job-salary-view"> Thương lượng </p>
+                            </li>
+                            <li>
+                                <span class="tags"><strong class="tags-txt">VietCredit</strong></span>
+                                <br><a href=""> Senior .NET Engineer - 1-month joining bonus </a>
+                                <p class="job-salary-view"> Thương lượng </p>
+                            </li>
+                            <li>
+                                <span class="tags"><strong class="tags-txt">VietCredit</strong></span>
+                                <br><a href=""> Senior .NET Engineer - 1-month joining bonus </a>
+                                <p class="job-salary-view"> Thương lượng </p>
+                            </li>
+                            <li>
+                                <span class="tags"><strong class="tags-txt">VietCredit</strong></span>
+                                <br><a href=""> Senior .NET Engineer - 1-month joining bonus </a>
+                                <p class="job-salary-view"> Thương lượng </p>
+                            </li>
+                        </ul>
+                        <ul id="customid" class="supper-hot-job">
+                            <li>
+                                <span class="tags"><strong class="tags-txt">VietCredit</strong></span>
+                                <br><a href=""> Senior .NET Engineer - 1-month joining bonus </a>
+                                <p class="job-salary-view"> Thương lượng </p>
+                            </li>
+                            <li>
+                                <span class="tags"><strong class="tags-txt">VietCredit</strong></span>
+                                <br><a href=""> Senior .NET Engineer - 1-month joining bonus </a>
+                                <p class="job-salary-view"> Thương lượng </p>
+                            </li>
+                            <li>
+                                <span class="tags"><strong class="tags-txt">VietCredit</strong></span>
+                                <br><a href=""> Senior .NET Engineer - 1-month joining bonus </a>
+                                <p class="job-salary-view"> Thương lượng </p>
+                            </li>
+                            <li>
+                                <span class="tags"><strong class="tags-txt">VietCredit</strong></span>
+                                <br><a href=""> Senior .NET Engineer - 1-month joining bonus </a>
+                                <p class="job-salary-view"> Thương lượng </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cont-bottum">
+            <div class="tit-recomm">
+                <h2>
+                    <strong class="tit-recomm-txt">
+                        Nhà Tuyển Dụng Nổi Bật
+                    </strong>
+                </h2>
+            </div>
+            <div class="row cont-bottum-main">
+                <div class="col-md-2 cont-bottum-main-item">
+                    <a href="">
+                        <div class="cont-bottum-main-item-img">
+                            <img src="./public/img/240656610_1057724158393576_5957262079858008168_n.jpg" alt="">
+                        </div>
+                    </a>
+                    <div class="cont-bottum-main-item-txt">
+                        <p>Công ty cổ phần</p>
+                    </div>
+                </div>
+                <div class="col-md-2 cont-bottum-main-item">
+                    <a href="">
+                        <div class="cont-bottum-main-item-img">
+                            <img src="./public/img/240656610_1057724158393576_5957262079858008168_n.jpg" alt="">
+                        </div>
+                    </a>
+                    <div class="cont-bottum-main-item-txt">
+                        <p>Công ty cổ phần</p>
+                    </div>
+                </div>
+                <div class="col-md-2 cont-bottum-main-item">
+                    <a href="">
+                        <div class="cont-bottum-main-item-img">
+                            <img src="./public/img/240656610_1057724158393576_5957262079858008168_n.jpg" alt="">
+                        </div>
+                    </a>
+                    <div class="cont-bottum-main-item-txt">
+                        <p>Công ty cổ phần</p>
+                    </div>
+                </div>
+                <div class="col-md-2 cont-bottum-main-item">
+                    <a href="">
+                        <div class="cont-bottum-main-item-img">
+                            <img src="./public/img/240656610_1057724158393576_5957262079858008168_n.jpg" alt="">
+                        </div>
+                    </a>
+                    <div class="cont-bottum-main-item-txt">
+                        <p>Công ty cổ phần</p>
+                    </div>
+                </div>
+                <div class="col-md-2 cont-bottum-main-item">
+                    <a href="">
+                        <div class="cont-bottum-main-item-img">
+                            <img src="./public/img/240656610_1057724158393576_5957262079858008168_n.jpg" alt="">
+                        </div>
+                    </a>
+                    <div class="cont-bottum-main-item-txt">
+                        <p>Công ty cổ phần</p>
+                    </div>
+                </div>
+                <div class="col-md-2 cont-bottum-main-item">
+                    <a href="">
+                        <div class="cont-bottum-main-item-img">
+                            <img src="./public/img/240656610_1057724158393576_5957262079858008168_n.jpg" alt="">
+                        </div>
+                    </a>
+                    <div class="cont-bottum-main-item-txt">
+                        <p>Công ty cổ phần</p>
+                    </div>
+                </div>
+                <div class="col-md-2 cont-bottum-main-item">
+                    <a href="">
+                        <div class="cont-bottum-main-item-img">
+                            <img src="./public/img/240656610_1057724158393576_5957262079858008168_n.jpg" alt="">
+                        </div>
+                    </a>
+                    <div class="cont-bottum-main-item-txt">
+                        <p>Công ty cổ phần</p>
+                    </div>
+                </div>
+                <div class="col-md-2 cont-bottum-main-item">
+                    <a href="">
+                        <div class="cont-bottum-main-item-img">
+                            <img src="./public/img/240656610_1057724158393576_5957262079858008168_n.jpg" alt="">
+                        </div>
+                    </a>
+                    <div class="cont-bottum-main-item-txt">
+                        <p>Công ty cổ phần</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -97,6 +323,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./public/js/js.js"></script>
 </body>
 
 </html>

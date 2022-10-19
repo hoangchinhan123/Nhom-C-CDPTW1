@@ -66,21 +66,4 @@
   text-align: center;
 }
 
-.search-main {
-  border: 1px solid #d34229;
-}
-.search-main .search-bar {
-  display: flex;
-  justify-content: space-between;
-}
-.search-main .search-btn {
-  background: #d34229;
-  padding: 0 40px;
-  border: #d34229;
-  color: #fff;
-}
-.search-main .form-control {
-  margin: 10px;
-}
-
 /*# sourceMappingURL=style.css.map */

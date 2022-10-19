@@ -86,24 +86,3 @@ $colo-a: #d34229;
         text-align: center;
     }
 }
-
-.search-main {
-    border: 1px solid $colo-a;
-
-    .search-bar {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .search-btn {
-        background: $colo-a;
-        padding: 0 40px;
-        border: #d34229;
-        color: #fff;
-    }
-
-    .form-control {
-        margin: 10px;
-
-    }
-}

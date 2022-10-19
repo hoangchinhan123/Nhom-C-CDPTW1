@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Pass</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/change_pass_log.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+<body>
+    <div class="change__pass">
+        <div class="container">
+            <div class="title__change__pass">
+                <h5>Change password</h5>
+            </div>
+            <form action="" class="form__change">
+                <div class="input__old__pass">
+                    <div class="lb__old__pass">
+                        <label for="password">Old password</label>
+                    </div>
+                    <input type="password" id="password" required>
+                    <i class="fa-solid fa-eye" id="show_pass"></i>
+                    <i class="fa-solid fa-eye-slash" id="hide_pass"></i>
+                </div>
+                <div class="input__new__pass">
+                    <div class="lb__new__pass">
+                        <label for="new-pass">New password</label>
+                    </div>
+                    <input type="password" id="new_password" required>
+                    <i class="fa-solid fa-eye" id="show_new"></i>
+                    <i class="fa-solid fa-eye-slash" id="hide_new"></i>
+                </div>
+                <div class="input__confirm">
+                    <div class="lb__confirm">
+                        <label for="confirm-pass">Confirm new password</label>
+                    </div>                  
+                    <input type="password" id="confirm_password" required>
+                    <i class="fa-solid fa-eye" id="show_confirm"></i>
+                    <i class="fa-solid fa-eye-slash" id="hide_confirm"></i>
+                </div>
+                <input type="submit" value="Confirm" class="btn confirm__btn">
+            </form>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/f6dce9b617.js" crossorigin="anonymous"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
